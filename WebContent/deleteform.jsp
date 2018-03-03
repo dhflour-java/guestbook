@@ -9,7 +9,7 @@
 <title>방명록</title>
 </head>
 <body>
-	<form method="" action="">
+	<form method="post" action="/guestbook/delete.jsp">
 		<input type='hidden' name="no" value="<%=no %>">
 		<table>
 			<tr>
@@ -19,6 +19,6 @@
 			</tr>
 		</table>
 	</form>
-	<a href="">메인으로 돌아가기</a>
+	<a href="/guestbook">메인으로 돌아가기</a>
 </body>
 </html>

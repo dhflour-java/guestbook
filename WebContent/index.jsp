@@ -39,7 +39,7 @@
 			<td>[<%=count-index++ %>]</td>
 			<td><%=vo.getName() %></td>
 			<td><%=vo.getRegDate() %></td>
-			<td><a href="">삭제</a></td>
+			<td><a href="/guestbook/deleteform.jsp?no=<%=vo.getNo() %>">삭제</a></td>
 		</tr>
 		<tr>
 			<td colspan="4">
